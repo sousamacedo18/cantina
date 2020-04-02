@@ -1,0 +1,17 @@
+1. tentar capturar sem click no botão capturar
+
+2. Criar tela de teste
+
+3. Registrar usuário em todas a telas de cadastro, quem cadastrou
+
+4. Criar tela de cadastro curso, turma, observação
+
+5. Filtros de relatórios - curso,turma, tipo bolsa e aluno
+
+6. msg - Bolsa Integral(Fundo Verde) - Bolsa Parcial(Fundo Amarelo) 
+- NÃO IDENTIFICADO,NÃO ENCONTRADO, LIMITE DIÁRIO(Fundo Vermelho)
+
+
+
+
+http://felipegambu.blogspot.com/2011/07/tutorial-facil-seu-celular-como-webcam.html

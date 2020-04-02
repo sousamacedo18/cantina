@@ -1,0 +1,9 @@
+{
+"senha":"",
+"usuario":"root",
+"mostracalculorelatorio":"S",
+"porta":"3306",
+"local":"localhost",
+"nomebanco":"refeitorioifto",
+"pastafotoaluno":"\\\C:\\Users\\Home\\Documents\\NetBeansProjects\\refeitorio\\src\\fotosaluno\\"
+}

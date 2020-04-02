@@ -1,0 +1,2 @@
+senha do phpmyadmin - usuario: cantina senha:Cantina@2018
+senha da pasta de fotos - usuario: cantina senha: IFTO@cantina

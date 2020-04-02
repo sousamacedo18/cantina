@@ -1,0 +1,9 @@
+{
+"senha":"Cantina@2018",
+"usuario":"cantina",
+"mostracalculorelatorio":"S",
+"porta":"3306",
+"local":"10.13.0.25",
+"nomebanco":"refeitorioifto",
+"pastafotoaluno":"\\\10.13.0.25\dados\\"
+}

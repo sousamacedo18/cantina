@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="relatorioaluno" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="77aae5ce-680c-4d91-b577-68f4177d56e4">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select*from aluno;]]>
+	</queryString>
+	<field name="idaluno" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nomealuno" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="emailaluno" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="senhaaluno" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="matriculaaluno" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="polegaraluno" class="java.lang.Object">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="indicadoraluno" class="java.lang.Object">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="medioaluno" class="java.lang.Object">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="anelaraluno" class="java.lang.Object">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="mindinhoaluno" class="java.lang.Object">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fotoaluno" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<textField pattern="MM/dd/yyyy">
+				<reportElement x="439" y="0" width="100" height="20" uuid="383f1224-c0d8-47a8-8562-e77729d1f9f8"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="226" y="48" width="81" height="31" uuid="87a423e5-08de-4aa7-a4d6-ab1b7902873f"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Refeitório]]></text>
+			</staticText>
+			<image>
+				<reportElement x="15" y="70" width="128" height="0" uuid="d49d14ef-5568-4d35-bc27-f78a9e0c841f"/>
+				<imageExpression><![CDATA["C:\\Users\\Home\\Documents\\NetBeansProjects\\refeitorio\\src\\imagens\\geant-pictogram-restaurant-clip-art_t.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="204" y="0" width="131" height="31" uuid="7a8e1b08-c972-43d2-8c4e-906e199eb0ec"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Lista de Alunos]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="4" y="41" width="19" height="20" uuid="dd50687f-0a30-4235-b6ef-e5ee4b9185a0"/>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="67" y="41" width="192" height="20" uuid="0482b356-f674-4984-b3c4-dd97ca603e5d"/>
+				<text><![CDATA[Nome]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22" splitType="Stretch">
+			<textField>
+				<reportElement x="4" y="0" width="50" height="20" uuid="83fdf62a-9753-4b03-84ed-11cd41c04ba3"/>
+				<textFieldExpression><![CDATA[$F{idaluno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="67" y="0" width="100" height="20" uuid="881bd491-7a73-4200-9f51-b865208515eb"/>
+				<textFieldExpression><![CDATA[$F{nomealuno}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<staticText>
+				<reportElement x="104" y="20" width="397" height="20" uuid="65997d06-6188-43cd-bad1-5c8d243b15a3"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Desenvolvido por Carlos Henrique Sousa de Macedo]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
